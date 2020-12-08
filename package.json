@@ -1,0 +1,31 @@
+{
+  "name": "twitch-api",
+  "version": "1.0.0",
+  "description": "Twitch API for freecodecamp",
+  "main": "index.js",
+  "homepage": "https://danielphilipjohnson.github.io/",
+  "scripts": {
+    "minimise:js": "minify js/app.js > js/bundle.min.js",
+    "lint-css": "csslint dist/css/main.css &> csserrors.txt",
+    "clean-css": "purgecss --css dist/css/bootstrap4.min.css --content ./*.html --output css/",
+    "minify-css": "postcss css/main.css > css/main.min.css",
+    "build-css-all": "npm-run-all build-css clean-css minify-css",
+    "imageOpt": "node ./optimiseImage.js"
+  },
+  "author": "Daniel Philip Johnson",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "concat": "^1.0.3",
+    "gh-pages": "^1.2.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "postcss": "^8.1.1",
+    "postcss-cli": "^8.1.0",
+    "purgecss": "^3.0.0"
+  }
+}
