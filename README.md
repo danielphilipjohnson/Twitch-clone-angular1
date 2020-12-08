@@ -1,6 +1,3 @@
-// https://wind-bow.glitch.me/twitch-api/users/ESL_SC2
-// https://wind-bow.glitch.me/twitch-api/channels/freecodecamp
-
 # [![Daniel Philip Johnson header](https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/banner/banner.png)](https://danielphilipjohnson.github.io/)
 
 <p align='center'>
@@ -23,4 +20,7 @@
 
 # Angular 1 Twitch clone 
 The project is built with Angular 1 and is styled with Bootstrap 4 and custom css.
-It uses an API to fetch twitch channels from https://wind-bow.glitch.me/twitch-api/channels/freecodecamp and displays the channels to the screen.
+It uses a freecodecamp API to fetch twitch channels and displays the channels to the screen.
+
+- https://wind-bow.glitch.me/twitch-api/users/ESL_SC2
+- https://wind-bow.glitch.me/twitch-api/channels/freecodecamp
